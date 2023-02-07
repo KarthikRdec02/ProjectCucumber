@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-27T13:05:32.774Z",
+        "line": 4,
+        "name": "",
+        "description": "    to create account",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3558430300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "to open chrome browser",
+            "match": {
+              "location": "FacebookAccCreate.to_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147758600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "to maximize window",
+            "match": {
+              "location": "FacebookAccCreate.to_maximize_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1990126100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "to launch FB url",
+            "match": {
+              "location": "FacebookAccCreate.to_launch_FB_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#emal\"}\n  (Session info: chrome\u003d109.0.5414.75)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.2.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7a7ab81222b608a7e4b3256ebe87cf87, findElement {using\u003did, value\u003demal}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\SANTHO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:62040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62040/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7a7ab81222b608a7e4b3256ebe87cf87\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.fbCreatracc.FacebookAccCreate.to_pass_username_and_password(FacebookAccCreate.java:29)\r\n\tat ✽.to pass username and password(file:src/test/resources/FeatureFile/FbCreateNewAcc.feature:10)\r\n",
+              "duration": 10083631900,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "to pass username and password",
+            "match": {
+              "location": "FacebookAccCreate.to_pass_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 572500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "to click create new account",
+            "match": {
+              "location": "FacebookAccCreate.to_click_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "to close tab",
+            "match": {
+              "location": "FacebookAccCreate.to_close_tab()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  to create new account in fb",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/FbCreateNewAcc.feature",
+    "tags": []
+  }
+]

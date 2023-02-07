@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-03T04:25:55.342Z",
+        "line": 4,
+        "name": "",
+        "description": "    to validate ubuy home page",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46601283400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "to launch chrome",
+            "match": {
+              "location": "MyproStepDefinition.to_launch_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3705872100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "to launch ubuy url",
+            "match": {
+              "location": "MyproStepDefinition.to_launch_ubuy_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10060980000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "to clear popup",
+            "match": {
+              "location": "MyproStepDefinition.to_clear_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d109.0.5414.120)\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.2.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7c3d0848f37cd08749f3cc81fc71eb71, sendKeysToElement {id\u003d605aef21-32ad-4f28-8851-a04fc66d5693, value\u003d[Ljava.lang.CharSequence;@3791f50e}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\SANTHO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (7c3d0848f37cd08749f3cc81fc71eb71)] -\u003e xpath: //div[contains(@Class,\u0027custom\u0027)]//div//form[contains(@id,\u0027search-\u0027)]]\nSession ID: 7c3d0848f37cd08749f3cc81fc71eb71\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.BaseClasscucu.BaseFrame.fillTextBox(BaseFrame.java:133)\r\n\tat www.MyProject.MyproStepDefinition.to_enter_product_in_search_box(MyproStepDefinition.java:62)\r\n\tat ✽.to enter product in search box(file:src/test/resources/FeatureFile/MyNewProject.feature:10)\r\n",
+              "duration": 139059600,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "to enter product in search box",
+            "match": {
+              "location": "MyproStepDefinition.to_enter_product_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 496000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "to enter the search button",
+            "match": {
+              "location": "MyproStepDefinition.to_enter_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "to ensure user in correct page",
+            "match": {
+              "location": "MyproStepDefinition.to_ensure_user_in_correct_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "to click the first product",
+            "match": {
+              "location": "MyproStepDefinition.to_click_the_first_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 431000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "to switch next window",
+            "match": {
+              "location": "MyproStepDefinition.to_switch_next_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "to ensure user is correct window",
+            "match": {
+              "location": "MyproStepDefinition.to_ensure_user_is_correct_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 404500,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "to click AddToCart button",
+            "match": {
+              "location": "MyproStepDefinition.to_click_AddToCart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1166400,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "to check view cart",
+            "match": {
+              "location": "MyproStepDefinition.to_check_view_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  to validate ubuy App",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/MyNewProject.feature",
+    "tags": []
+  }
+]
