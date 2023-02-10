@@ -1,91 +1,121 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/FeatureFile/AustraliaProject.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/FeatureFile/MyNewProject.feature");
 formatter.feature({
   "name": "",
-  "description": "",
+  "description": "  to validate ubuy App",
   "keyword": "Feature"
 });
 formatter.scenario({
   "name": "",
-  "description": "to validate identitydirect project",
+  "description": "    to validate ubuy home page",
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "to open chrome",
+  "name": "to launch chrome",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "AusStepDefinition.to_open_chrome()"
+  "location": "MyproStepDefinition.to_launch_chrome()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "to give wait and max window",
+  "name": "to launch ubuy url",
   "keyword": "And "
 });
 formatter.match({
-  "location": "AusStepDefinition.to_give_wait_and_max_window()"
+  "location": "MyproStepDefinition.to_launch_ubuy_url()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "to open project",
+  "name": "to clear popup",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyproStepDefinition.to_clear_popup()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "to enter product in search box",
   "keyword": "When "
 });
 formatter.match({
-  "location": "AusStepDefinition.to_open_project()"
+  "location": "MyproStepDefinition.to_enter_product_in_search_box()"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "to search produt",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AusStepDefinition.to_search_produt()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "to click popup",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AusStepDefinition.to_click_popup()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "to select first product wishlist",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AusStepDefinition.to_select_first_product_wishlist()"
-});
-formatter.result({
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cdiv class\u003d\"jm2XV LQ8an IQP1X KCZo5\"\u003e...\u003c/div\u003e is not clickable at point (897, 592). Other element would receive the click: \u003cdiv class\u003d\"mSfFT test-product-list-item_brand\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d109.0.5414.120)\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.2.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ba38215a4ca3ac65c1a52e27a7fdf16d, clickElement {id\u003d86a07d4b-6311-425b-99ae-245c6d5d04ee}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\SANTHO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55686/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (ba38215a4ca3ac65c1a52e27a7fdf16d)] -\u003e xpath: //div[text()\u003d\u0027Add product to Wishlist\u0027]]\nSession ID: ba38215a4ca3ac65c1a52e27a7fdf16d\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat org.AustraliaProject.AusStepDefinition.to_select_first_product_wishlist(AusStepDefinition.java:49)\r\n\tat ✽.to select first product wishlist(file:src/test/resources/FeatureFile/AustraliaProject.feature:9)\r\n",
+  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d109.0.5414.120)\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.2.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [63076bbbeb8438660cbeeee3e082ef8f, sendKeysToElement {id\u003d5863bf83-760e-4c55-8d06-1b8f3ccf59a2, value\u003d[Ljava.lang.CharSequence;@934b52f}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\SANTHO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61494/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (63076bbbeb8438660cbeeee3e082ef8f)] -\u003e xpath: //div[contains(@Class,\u0027custom\u0027)]//div//form[contains(@id,\u0027search-\u0027)]]\nSession ID: 63076bbbeb8438660cbeeee3e082ef8f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.BaseClasscucu.BaseFrame.fillTextBox(BaseFrame.java:133)\r\n\tat www.MyProject.MyproStepDefinition.to_enter_product_in_search_box(MyproStepDefinition.java:62)\r\n\tat ✽.to enter product in search box(file:src/test/resources/FeatureFile/MyNewProject.feature:10)\r\n",
   "status": "failed"
 });
 formatter.step({
-  "name": "to click first product",
+  "name": "to enter the search button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "AusStepDefinition.to_click_first_product()"
+  "location": "MyproStepDefinition.to_enter_the_search_button()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.step({
-  "name": "to select first product Addtocart",
+  "name": "to ensure user in correct page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyproStepDefinition.to_ensure_user_in_correct_page()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "to click the first product",
   "keyword": "When "
 });
 formatter.match({
-  "location": "AusStepDefinition.to_select_first_product_Addtocart()"
+  "location": "MyproStepDefinition.to_click_the_first_product()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "to switch next window",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyproStepDefinition.to_switch_next_window()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "to ensure user is correct window",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyproStepDefinition.to_ensure_user_is_correct_window()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "to click AddToCart button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "MyproStepDefinition.to_click_AddToCart_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "to check view cart",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyproStepDefinition.to_check_view_cart()"
 });
 formatter.result({
   "status": "skipped"

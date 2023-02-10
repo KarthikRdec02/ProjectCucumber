@@ -12,7 +12,7 @@ public class JvmReport {
 	public static void generateJvmReport(String jsonpath) {
 		File f = new File(
 				"C:\\Users\\santhoshkumar p\\Downloads\\karthik java testing\\SampleCucumber\\Reports\\JvmReport");
-		Configuration con = new Configuration(f, "AUSTRALLIA PROJECT");
+		Configuration con = new Configuration(f, "UBUY PROJECT");
 		con.addClassifications("AUTO TOOL", "SELENIUM");
 		con.addClassifications("LANGUAGE", "JAVA");
 		con.addClassifications("IDE NAME", "ECLIPSE");

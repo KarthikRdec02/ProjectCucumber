@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-02-03T04:25:55.342Z",
+        "start_timestamp": "2023-02-09T10:10:34.248Z",
         "line": 4,
         "name": "",
         "description": "    to validate ubuy home page",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 46601283400,
+              "duration": 3379405000,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3705872100,
+              "duration": 8479988600,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 10060980000,
+              "duration": 10083861800,
               "status": "passed"
             },
             "line": 9,
@@ -49,8 +49,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d109.0.5414.120)\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.2.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7c3d0848f37cd08749f3cc81fc71eb71, sendKeysToElement {id\u003d605aef21-32ad-4f28-8851-a04fc66d5693, value\u003d[Ljava.lang.CharSequence;@3791f50e}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\SANTHO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63181/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (7c3d0848f37cd08749f3cc81fc71eb71)] -\u003e xpath: //div[contains(@Class,\u0027custom\u0027)]//div//form[contains(@id,\u0027search-\u0027)]]\nSession ID: 7c3d0848f37cd08749f3cc81fc71eb71\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.BaseClasscucu.BaseFrame.fillTextBox(BaseFrame.java:133)\r\n\tat www.MyProject.MyproStepDefinition.to_enter_product_in_search_box(MyproStepDefinition.java:62)\r\n\tat ✽.to enter product in search box(file:src/test/resources/FeatureFile/MyNewProject.feature:10)\r\n",
-              "duration": 139059600,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d109.0.5414.120)\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.2.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [63076bbbeb8438660cbeeee3e082ef8f, sendKeysToElement {id\u003d5863bf83-760e-4c55-8d06-1b8f3ccf59a2, value\u003d[Ljava.lang.CharSequence;@934b52f}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\SANTHO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61494/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (63076bbbeb8438660cbeeee3e082ef8f)] -\u003e xpath: //div[contains(@Class,\u0027custom\u0027)]//div//form[contains(@id,\u0027search-\u0027)]]\nSession ID: 63076bbbeb8438660cbeeee3e082ef8f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.BaseClasscucu.BaseFrame.fillTextBox(BaseFrame.java:133)\r\n\tat www.MyProject.MyproStepDefinition.to_enter_product_in_search_box(MyproStepDefinition.java:62)\r\n\tat ✽.to enter product in search box(file:src/test/resources/FeatureFile/MyNewProject.feature:10)\r\n",
+              "duration": 141058800,
               "status": "failed"
             },
             "line": 10,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 496000,
+              "duration": 629100,
               "status": "skipped"
             },
             "line": 11,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 423600,
+              "duration": 551700,
               "status": "skipped"
             },
             "line": 12,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 454100,
+              "duration": 435800,
               "status": "skipped"
             },
             "line": 13,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 431000,
+              "duration": 469500,
               "status": "skipped"
             },
             "line": 14,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 423500,
+              "duration": 425400,
               "status": "skipped"
             },
             "line": 15,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 404500,
+              "duration": 527300,
               "status": "skipped"
             },
             "line": 16,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 1166400,
+              "duration": 420700,
               "status": "skipped"
             },
             "line": 17,

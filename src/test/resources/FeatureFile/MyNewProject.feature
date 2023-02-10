@@ -15,4 +15,3 @@ Feature:
     And to ensure user is correct window
     When to click AddToCart button
     And to check view cart
-    
